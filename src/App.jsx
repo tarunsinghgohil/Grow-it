@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Search, User, Mic, Save, ChevronRight } from "lucide-react";
-import background from "./assets/background.png";
+// import background from "./assets/background.png";
 
 function Sidebar({ route, setRoute }) {
   return (
     <aside className="w-64 bg-white border-r border-gray-200 min-h-screen px-6 py-8">
       <div className="flex items-center gap-3 mb-8">
         <div className="w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold">
-          <img src={background} alt="" />
+          {/* <img src={background} alt="" /> */}
         </div>
         <div className="text-lg font-semibold">GrowIT</div>
       </div>
